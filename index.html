@@ -11,13 +11,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="Css/estilos.css">
+    <script src="JS/js.js"></script>
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
-    <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav">
+    <nav class="navbar navbar-light navbar-ms-8 fixed-top" style="background-color: palevioletred;" id="mainNav">
         <div class="container"><a class="navbar-brand" href="#">Joaquín Accorsi</a><button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar ms-auto">
+                <ul class="navbar navbarResponsive navbar-collapse" >
                     <li class="nav-item nav-link"><a class="nav-link"  href="#conoceme">conoceme</a></li>
                     <li class="nav-item nav-link"><a class="nav-link"  href="#proyectos">proyectos</a> </li>
                     <li class="nav-item nav-link"><a class="nav-link" href="#contactame">contáctame</a> </li> 
@@ -25,14 +26,20 @@
             </div>
         </div>
     </nav>
-    <header class="masthead">
+    <header class="masthead" style="background-color:#0f111f;">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 mx-auto">
-                       <img src="assets/img/foto-10.svg"  alt="PERFIL" style="width: 200px; height: 200px;">
-                        <h1 class="brand-heading">Joaquín Accorsi<h1>
-                        <p class="intro-text" >Desarrollador Web-Community Manager<br>Hola Mundo!</p><a class="btn btn-link btn-circle" role="button" href="#conoceme"><i class="fa fa-angle-double-down animated"></i></a>
+                    <div class="col-12 mx-auto">
+                        <div class="col-lg-2 mx-auto">
+                         <img src="assets/img/foto-10.svg"  alt="PERFIL" style="width: 200px; height: 160px;">
+                        </div>
+                        <div class="col-lg-6 mx-auto">
+                         <h1 class="brand-heading" style="font-size: 60px;" >Joaquín Accorsi<h1>
+                        </div>
+                        <div class="col-lg-3 mx-auto">
+                            <p class="intro-text" >Desarrollador Web <br> Community Manager<br><p>< h1 >Hola Mundo!< /h1 ></p>  <a class="btn btn-link btn-outline-warning" role="button" href="#conoceme"><i class="fa fa-angle-double-down animated"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -47,29 +54,29 @@
                     <p>Actualmente estoy en una busqueda activa de trabajo.<br>Mi disponibilidad horaria es Full Time  </p>
                      
                     
-                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <button class="btn btn-outline-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                         MI EXPERIENCIA LABORAL, ESTUDIOS Y HABILIDADES
                       </button>
                         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                            <div class="offcanvas-header" style="background-color: black;" >
+                            <div class="offcanvas-header" style="background-color:#d87093">
                               <h5 class="offcanvas-title" style="text-align: center;" id="offcanvasExampleLabel">Experiencia Laboral</h5>
-                              <button type="button" class="btn btn-outline-primary  text-reset" data-bs-dismiss="offcanvas" aria-label="Close">ATRÁS</button> 
+                              <button type="button" class="btn btn-sm btn-outline-secondary  text-reset" data-bs-dismiss="offcanvas" aria-label="Close">ATRÁS</button> 
                             </div>
 
-                            <div class="offcanvas-body" style="background-color: black;">
+                            <div class="offcanvas-body" style="background-color:#07080f;">
                         
                           
                         
                              <div class="container">
                                 <div class="row align-items-start">
                              
-                                    <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton1"   data-bs-toggle="dropdown">
+                                    <button class="btn btn-outline-warning dropdown-toggle" type="button" id="dropdownMenuButton1"   data-bs-toggle="dropdown">
                                       Experiencia
                                     </button>
-                                    <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton2"      data-bs-toggle="dropdown">
+                                    <button class="btn btn-outline-warning dropdown-toggle" type="button" id="dropdownMenuButton2"      data-bs-toggle="dropdown">
                                      Estudios
                                     </button>
-                                    <button class="btn btn-outline-primary  dropdown-toggle" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown">
+                                    <button class="btn btn-outline-warning  dropdown-toggle" type="button" id="dropdownMenuButton3" data-bs-toggle="dropdown">
                                      Habilidades 
                                     </button> 
                             
@@ -80,13 +87,13 @@
             </div>
         </div>
     </section>
-    <section class="text-center content-section" id="proyectos" style="background-color: black;">
+    <section class="text-center content-section" id="proyectos" >
         <div class="container">
             <div class="row">                     
                 <div class="col-lg-8 mx-auto">
-                   <h1>Proyectos</h1>
+                   <h2>Proyectos</h2>
                    <p>Aquí te dejo los repositorios de mis proyectos para que puedas verlos.</p>
-                   <a href="https://github.com/joaquinaccorsi" target="_blank"><button class="btn btn-outline-primary  " type="button" style="background-color: black;">Repositorios en GITHUB</button></a>
+                   <a href="https://github.com/joaquinaccorsi" target="_blank"><button class="btn btn-outline-warning  " type="button" >Repositorios en GITHUB</button></a>
                 </div>
             </div>    
            
@@ -102,8 +109,8 @@
             
             <div class="link contacto"> 
                <p>Telefono: +543516973481</p>
-               <a href="https://www.linkedin.com/in/joaquinaccorsi/" target="_blank"><button class="btn btn-outline-primary" type="button" style="background-color: black;">LinkedIn</button></a>
-               <a href="mailto:joaquinaccorsi@gmail.com" target="_blank"><button class="btn btn-outline-primary"type="button" style="background-color: black;">Mail</button></a>
+               <a href="https://www.linkedin.com/in/joaquinaccorsi/" target="_blank"><button class="btn btn-outline-warning" type="button" >LinkedIn</button></a>
+               <a href="mailto:joaquinaccorsi@gmail.com" target="_blank"><button class="btn btn-outline-warning"type="button">Mail</button></a>
             </div>
         </div>  
                     
