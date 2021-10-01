@@ -4,10 +4,9 @@
 html {background-color: black; font-family: 'Space Grotesk', sans-serif;}
 
 
-header {background-color: black; font-family:'Space Grotesk', sans-serif; }
-
-
-
+header {background-color: black; font-family:'Space Grotesk', sans-serif;}
+$modal-content-border-radius:       $border-radius-lg;
+#mymodal {background-color: #FFC107;}
 body 
 #offcanvas {font-family: 'Space Grotesk', sans-serif;}
 h1 {font-family: 'Space Grotesk', sans-serif;}
