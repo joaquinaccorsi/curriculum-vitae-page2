@@ -4,16 +4,14 @@
 html {background-color: black; font-family: 'Space Grotesk', sans-serif;}
 
 
-header {background-color: black; font-family: "SpaceGrotesk";}
+header {background-color: black; font-family:'Space Grotesk', sans-serif; }
 
 
 
 body 
 
-h1 { font-family: "spacegrotesk"; }
-h2 { text-align:center;font-size: 40px; color: #FFC107; font-family: 'Grotesk', sans-serif;}
-nav {background-color: white;font-family: 'Grotesk", sans-serif; }
-p {font-style: initial; font-size: 25px;font-family: 'Grotesk', sans-serif;}
-p2 {font-size: 20px;font-family: "spacegrotesk";}
-
-footer {background-color:#FFC107; color: black; font-family:'Grotesk', sans-serif;}
+h1 {font-family: 'Space Grotesk', sans-serif;}
+h2 {font-family: 'Space Grotesk', sans-serif; color:#FFC107;}
+nav {background-color: white;font-family: 'Space Grotesk', sans-serif;}
+p {font-family: 'Space Grotesk', sans-serif;}
+footer {background-color:#FFC107; color: black; font-family:'Space Grotesk', sans-serif;}
