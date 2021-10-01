@@ -11,7 +11,8 @@ header {background-color: black; font-family:'Space Grotesk', sans-serif; }
 body 
 #offcanvas {font-family: 'Space Grotesk', sans-serif;}
 h1 {font-family: 'Space Grotesk', sans-serif;}
-h2 {font-family: 'Space Grotesk', sans-serif; color:#FFC107;}
+h2 {font-family: 'Space Grotesk', sans-serif; color:#FFC107; font-style: italic;}
+h5 {font-family: 'Space Grotesk', sans-serif;}
 nav {background-color: white;font-family: 'Space Grotesk', sans-serif;}
 p {font-family: 'Space Grotesk', sans-serif;}
 footer {background-color:#FFC107; color: black; font-family:'Space Grotesk', sans-serif;}
