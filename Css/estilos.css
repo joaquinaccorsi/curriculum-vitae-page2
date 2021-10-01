@@ -9,7 +9,7 @@ header {background-color: black; font-family:'Space Grotesk', sans-serif; }
 
 
 body 
-
+#offcanvas {font-family: 'Space Grotesk', sans-serif;}
 h1 {font-family: 'Space Grotesk', sans-serif;}
 h2 {font-family: 'Space Grotesk', sans-serif; color:#FFC107;}
 nav {background-color: white;font-family: 'Space Grotesk', sans-serif;}
