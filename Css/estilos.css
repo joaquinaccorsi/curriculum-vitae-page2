@@ -1,25 +1,18 @@
-@font-face {
-    font-family:'Grotesk', sans-serif;
-src: url("SpaceGrotesk-bold.ttf");
-src: url("spaceGrotesk-light.ttf");
-src: url("spaceGrotesk-medium.ttf");
-src: url("spaceGrotesk-regular.ttf");
-src: url("spaceGrotesk-semibold.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 
 
-html {background-color: black;}
+html {background-color: black; font-family: 'Space Grotesk', sans-serif;}
 
 
-header {background-color: black;}
+header {background-color: black; font-family: "SpaceGrotesk";}
 
 
 
 body 
 
-h1 { font-family: 'Grotesk', sans-serif;}
+h1 { font-family: "spacegrotesk"; }
 h2 { text-align:center;font-size: 40px; color: #FFC107; font-family: 'Grotesk', sans-serif;}
-nav {background-color: white;font-family: 'Grotesk', sans-serif; }
+nav {background-color: white;font-family: 'Grotesk", sans-serif; }
 p {font-style: initial; font-size: 25px;font-family: 'Grotesk', sans-serif;}
 p2 {font-size: 20px;font-family: "spacegrotesk";}
 
