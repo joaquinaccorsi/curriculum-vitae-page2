@@ -1,5 +1,5 @@
 @font-face {
-    font-family:'Space Grotesk';
+    font-family:'Grotesk', sans-serif;
 src: url("SpaceGrotesk-bold.ttf");
 src: url("spaceGrotesk-light.ttf");
 src: url("spaceGrotesk-medium.ttf");
@@ -18,9 +18,9 @@ header {background-color: black;}
 body 
 
 h1 { font-family: 'Grotesk', sans-serif;}
-h2 { text-align:center;font-size: 40px; color: gold; font-family: 'Grotesk', sans-serif;}
+h2 { text-align:center;font-size: 40px; color: #FFC107; font-family: 'Grotesk', sans-serif;}
 nav {background-color: white;font-family: 'Grotesk', sans-serif; }
 p {font-style: initial; font-size: 25px;font-family: 'Grotesk', sans-serif;}
 p2 {font-size: 20px;font-family: "spacegrotesk";}
 
-footer {background-color:white;}
+footer {background-color:#FFC107; color: black; font-family:'Grotesk', sans-serif;}
