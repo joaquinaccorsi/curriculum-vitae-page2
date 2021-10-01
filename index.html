@@ -25,24 +25,36 @@
         <div class="container ">
             <div class=" navbar" id="navbarResponsive">
                 <ul class="navbar" >
-                    <li class="nav-item nav-link text-lowercase"><a class="nav-link"  href="#conoceme" style="color:#FFC107; font-family:'Space Grotesk', sans-serif;">#conoceme</a></li>
-                    <li class="nav-item nav-link text-lowercase"><a class="nav-link"  href="#proyectos" style="color:#FFC107; font-family:'Space Grotesk', sans-serif;">#proyectos</a> </li>
-                    <li class="nav-item nav-link text-lowercase"><a class="nav-link" href="#contactame" style="color: #FFC107;font-family:'Space Grotesk', sans-serif;">#contáctame</a> </li> 
+                    <li class="nav-item nav-link text-lowercase"><a class="nav-link"  href="#conoceme" style="color:black; font-family:'Space Grotesk', sans-serif;">#conoceme</a></li>
+                    <li class="nav-item nav-link text-lowercase"><a class="nav-link"  href="#proyectos" style="color:black; font-family:'Space Grotesk', sans-serif;">#proyectos</a> </li>
+                    <li class="nav-item nav-link text-lowercase"><a class="nav-link" href="#contactame" style="color: black;font-family:'Space Grotesk', sans-serif;">#contáctame</a> </li> 
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="masthead" >
+    <header class="masthead" style="background-color:#FFC107">
         <div class="intro-body">
             <div class="container">
                 <div class="row align-items-start">
                     <div class="col align-self-end">
-                         <p class=" intro-text text-center p-3 mb-2 bg-danger text-dark" style="font-size: 30px;" >Desarrollador Web <br> Community Manager<br><p class="text-decoration-line-through font-monospace">< h1 >Hola Mundo!< /h1 ></p>
-                     </div>
-                    <div class="col align-self-start">
-                         <h1 class="p-3 mb-2 bg-warning text-dark brand-heading text-end" style="font-size: 40px;">Joaquín <br>Accorsi</h1>
-                         <img src="assets/img/foto-10.svg" class="rounded float-end  alt"PERFIL style="height: 400px;">
-                     </div>
+                         <p class=" intro-text text-center p-3 mb-2 bg-danger text-dark" style="font-size: 30px;" >Desarrollador Web <br> Community Manager<br><p class="text-decoration-line-through" style="font-family: 'Space Grotesk', sans-serif; color: black;">< h1 >Hola Mundo!< /h1 ></p>
+                    </div>
+                    <div class="col">
+                        <div class="mymodal" tabindex="-1">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-lowercase" style="color: black;" >PERFIL.jpg</h5>
+                                        <button type="button" class="btn btn-close " data-bs-dismiss="mymodal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="assets/img/foto-10.svg" class="mx-auto d-block  alt"PERFIL style="height: 450px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div> 
             </div>    
         </div>
@@ -62,7 +74,7 @@
                         <div class="offcanvas offcanvas-end"  tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                             <div class="offcanvas-header" style="background-color:#FFC107">
                               <h5 class="offcanvas-title text-lowercase" style="color: black;font-family:'Space Grotesk', sans-serif;" id="offcanvasExampleLabel">curriculum vitae</h5>
-                              <button type="button" class="btn btn-sm btn-dark  text-reset" data-bs-dismiss="offcanvas" aria-label="Close">x</button> 
+                              <button type="button" class="btn-close btn-sm btn-dark  text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> 
                             </div>
 
                             <div class="offcanvas-body" style="background-color: black ;">
@@ -80,46 +92,58 @@
                                     <div style="min-height: 120px;">
                                         <div class="collapse collapse-horizontal" id="collapseWidthExample">
                                             <div class="card card-body" style="width: 300px; font-family: 'Space Grotesk', sans-serif; background-color: #FFC107;">
-                                                <ul class="list-group list-group-flush">
+                                                <ul class="list-group">
                                                     <li class="list-group-item">
-                                                     <h5>Town of Hell</h5>
-                                                      -Desarrollador web <br>
-                                                      -Community Manager <br>
-                                                      Autónomo <br>
-                                                      Feb 2021 – actualidad 
-                                                    </li>  
+                                                        <div class="fw-bold">Town of Hell</div>
+                                                          -Desarrollador web <br>
+                                                          -Community Manager <br>
+                                                          Autónomo <br>
+                                                          Feb 2021 – actualidad 
+                                                    </li> 
+                                                    
+                                                    
                                                     <li class="list-group-item">
-                                                     <h5>Sarcastic Club</h5>
-                                                     -Propietario <br>
-                                                     Autónomo <br>
-                                                     May 2019 – actualidad  <br>
+                                                        <div class="fw-bold">Sarcastic Club</div>
+                                                         -Propietario <br>
+                                                         Autónomo <br>
+                                                         May 2019 – actualidad  <br>
                                                     </li>
+                                                    
+                                                    
                                                     <li class="list-group-item">
-                                                     <h5>Venta Online </h5>
+                                                        <div class="fw-bold">Venta Online</div>
                                                      (compra y venta de productos por tiendas digitales y market place, Facebook Ads) <br>
                                                      Autónomo <br>
                                                      May 2016 – actualidad
                                                     </li>
+                                                    
+                                                    
                                                     <li class="list-group-item">
-                                                        <h5>Barberia Filo Dulce</h5>
+                                                        <div class="fw-bold">Barbería Filo Dulce</div>
                                                      -Barbero <br>
                                                      Full Time <br>
                                                      Sept 2018 – Nov 2019
                                                     </li>
+                                                    
+                                                    
                                                     <li class="list-group-item">
-                                                        <h5>Salon Aires de Campo</h5>
+                                                        <div class="fw-bold">Salón Aires de Campo</div>
                                                      -Encargado de personal <br>
                                                      Jornada Parcial <br>
                                                      Feb 2016 – Nov 2018
                                                     </li>
+                                                    
+                                                    
                                                     <li class="list-group-item">
-                                                        <h5>Mantua Coiffure</h5>
+                                                        <div class="fw-bold">Mantua Coiffure</div>
                                                      -Propietario de peluquería <br>
                                                      Profesional independiente <br>
                                                      May 2016 – Sept 2018
                                                     </li> 
+                                                    
+                                                    
                                                     <li class="list-group-item">
-                                                        <h5>Chexa S.A</h5>
+                                                        <div class="fw-bold">Chexa S.A</div>
                                                      -Vendedor Planes de Ahorro <br>
                                                      Full Time <br>
                                                      2015
@@ -141,37 +165,37 @@
                                                 <ul class="list-group list-group-flush">
 
                                                     <li class="list-group-item">
-                                                        <h5>Ministerio de Desarrollo Productivo</h5>
+                                                        <div class="fw-bold">Ministerio de Desarrollo Productivo</div>
                                                      Formación Profesional de Grado Medio Programador Web Full Stack Jr. <br> 
                                                      2021 – 2022 (CURSANDO) 
                                                     </li>
                                                     <li class="list-group-item">
-                                                        <h5>Universidad Siglo 21</h5>
+                                                        <div class="fw-bold">Universidad Siglo 21</div>
                                                      Blockchain usos y legales. <br>
                                                      2021 – 2022  (CURSANDO)
                                                     </li>
                                                     <li class="list-group-item">
-                                                        <h5>EducacionIT</h5>
+                                                        <div class="fw-bold">EducacionIT</div>
                                                      Curso Protocolo HTTPS (APROBADO) <br>
                                                      2021 – 2021
                                                     </li>
                                                     <li class="list-group-item">
-                                                        <h5>EducacionIT</h5>
+                                                        <div class="fw-bold">EducacionIT</div>
                                                      Curso Community Manager <br>
                                                      2021 – 2021 (APROBADO)
                                                     </li>
                                                     <li class="list-group-item">
-                                                        <h5>EducacionIT</h5>
+                                                        <div class="fw-bold">EducacionIT</div>
                                                      Curso Desarrollo de páginas web, contenido digital/multimedia y recursos informáticos (APROBADO) <br>
                                                      2021 – 2021
                                                     </li>
                                                     <li class="list-group-item">
-                                                        <h5>EducacionIT</h5>
+                                                        <div class="fw-bold">EducacionIT</div>
                                                      Curso Programación informática <br>
                                                      2021 – 2021  (APROBADO)
                                                     </li>
                                                     <li class="list-group-item">
-                                                        <h5>Arte y Color</h5>
+                                                        <div class="fw-bold">Arte Color</div>
                                                      Curso Peluquería y cosmética capilar <br>  
                                                      2016 – 2017 (APROBADO)
                                                     </li>
@@ -192,7 +216,7 @@
                                                     <li class="list-group-item"><h5>Diseño Web</h5></li>
                                                     <li class="list-group-item"><h5>Diseño Interactivo</h5></li> 
                                                     <li class="list-group-item"><h5>Resolución de problemas</h5></li> 
-                                                    <li class="list-group-item"><h5>Conocimiento del sector</h5>
+                                                    <li class="list-group-item"><div class="fw-bold">Conocimientos del Sector</div>
                                                          Capacidad de análisis 
                                                          Marketing <br>
                                                          Finanzas<br>
@@ -202,7 +226,7 @@
                                                          Ventas <br>
                                                          Resolución de problemas
                                                     </li>       
-                                                    <li class="list-group-item"><h5>Herramientas y tecnologías</h5>
+                                                    <li class="list-group-item"><div class="fw-bold">Herramientas y Tecnologías</div>
                                                          Blockchain <br>
                                                          Windows <br>
                                                          Microsoft Office <br>
@@ -211,17 +235,17 @@
                                                          Hojas de estilos en cascada (CSS) <br>
                                                          Javascript
                                                     </li>     
-                                                    <li class="list-group-item"><h5>Aptitudes interpersonales</h5>
+                                                    <li class="list-group-item"><div class="fw-bold">Aptitudes Interpersonales</div>
                                                      Resolución creativa de problemas <br>
                                                      Capacidad de decisión <br>
                                                      Toma de decisiones <br>
                                                      Comunicación <br> 
                                                      Gestión del tiempo 
                                                     </li>      
-                                                    <li class="list-group-item"><h5>Idiomas</h5>
+                                                    <li class="list-group-item"><div class="fw-bold">Idiomas</div>
                                                      Inglés
                                                     </li>  
-                                                    <li class="list-group-item"><h5>Otras aptitudes</h5> 
+                                                    <li class="list-group-item"><div class="fw-bold">Otras Aptitudes</div>
                                                      Persuasión <br>
                                                      Criptomoneda <br>
                                                      Bolsa de valores <br>
