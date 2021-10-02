@@ -9,7 +9,7 @@
 .navbar {  width: 100%;height: 70px;background-color: #FFC107; 
 text-align: start;font-family:'Space Grotesk', sans-serif;font-style: normal;}
 .masthead {background-color: #FFC107;}
-.masthead p {background-color: black; color: white; font-style: bold;}
+.masthead p {background-color: black; color: white; border-radius: 20px;}
 .offcanvas {background-color: #FFC107;}
 .offcanvas .offcanvas-header {font-family: 'Space Grotesk', sans-serif; background-color:black; height: 90px;}
 .offcanvas .offcanvas-header h5 {color:#FFC107;}
