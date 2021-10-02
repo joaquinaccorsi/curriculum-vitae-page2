@@ -6,10 +6,10 @@
 
 
 
-.navbar {  width: 100%;height: 70px; }
-.navbar-brand {text-align: start;font-family:'Space Grotesk', sans-serif;font-style: normal;}
-
-
+.navbar {  width: 100%;height: 70px;background-color: #FFC107; 
+text-align: start;font-family:'Space Grotesk', sans-serif;font-style: normal;}
+.masthead {background-color: #FFC107;}
+.masthead p {background-color: black; color: white; font-style: bold;}
 .offcanvas {background-color: #FFC107;}
 .offcanvas .offcanvas-header {font-family: 'Space Grotesk', sans-serif; background-color:black; height: 90px;}
 .offcanvas .offcanvas-header h5 {color:#FFC107;}
@@ -18,7 +18,8 @@
 .offcanvas .offcanvas-body button {background-color: black; height: 30px;}
 .offcanvas .offcanvas-body button h3 {color: white; font-family:'Space Grotesk', sans-serif; font-size: small; }
 .card-body {background-color: black;width: 300px;font-family: 'Space   Grotesk', sans-serif;}
-.card-body ul li h5 {font-size: smaller;}
+.card-body ul li {background-color:black; color: white;}
+.card-body ul li h5 {font-size: smaller; color: white;}
 
 
 h1 {font-family: 'Space Grotesk', sans-serif;}
