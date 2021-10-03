@@ -8,10 +8,13 @@
    
 
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
 
     <link rel="stylesheet" href="Css/estilos.css">
+    <script src="https://kit.fontawesome.com/5d42a5a099.js" crossorigin="anonymous"></script>
     
                 
     
@@ -30,29 +33,25 @@
             </ul>       
         </nav>
     </div>
-    <header class="masthead">
+    <header class="masthead" style="background-image: url(IMG/randal.svg);">
         <div class="intro-body">
-            <div class="container-fluid">
-                <div class="row align-items-start">
-                    <div class="col align-self-end">
-                        <p class="intro-text text-center p-3 mb-2 " >Desarrollador Web <br> Community Manager<br><p class="text-decoration-line-through">< h1 >Hola Mundo!< /h1 ></p>
-                    </div>
-                    <div class="col align-self-center">
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col-lg-6">
                         <div class="mymodal" tabindex="-1">
                             <div class="modal-dialog">
-                                <div class="modal-content" style="border-radius: 0px">
+                                <div class="modal-content" style="border-radius: 0px; height: 460px;width: 430px;">
                                     <div class="modal-header">
-                                        <h5 class="modal-title text-lowercase"  >PERFIL.jpg</h5>
-                                        <button type="button" class="btn btn-close " data-bs-dismiss="mymodal" aria-label="Close"></button>
+                                     <h5 class="modal-title text-lowercase"  >PERFIL.jpg</h5>
+                                     <button type="button" class="btn" data-bs-dismiss="mymodal" aria-label="Close">x</button>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="assets/img/foto-10.svg" class="mx-auto d-block  alt"PERFIL style="height: 450px;">
-                                    </div>
+                                       <img src="assets/img/foto-10.svg"  alt=PERFIL style="height: 360px; width: 360px;">
+                                    </div>   
                                 </div>
                             </div>
                         </div>
-                        
-                    </div>
+                    </div>                                      
                 </div> 
             </div>    
         </div>
@@ -62,17 +61,17 @@
             <div class="row justify-content-around">
                 <div class="col-lg-4 align-self-center">
                     <h2>Conoceme</h2>
-                    <p>Soy Joaquín! Tengo 25 años y hace dos años que estoy incursionando en el mundo IT. <br>Vivo en Córdoba Capital, Argentina. <br>  <br> Me considero una persona analitica, resolutiva, proactiva, autonoma, aunque me encanta el trabajo en equipo, y en constante desarrollo, personal y profesional. <br> </p>
-                    <p>Actualmente estoy en una busqueda activa de trabajo.<br>Mi disponibilidad horaria es Full Time </p>
+                    <p>Soy Joaquín! Tengo 25 años y <strong> hace dos años que estoy incursionando en el mundo IT.</strong> <br>Vivo en Córdoba Capital, Argentina. <br>  <br> Me considero una persona <strong>resolutiva, proactiva, autonoma,</strong>  aunque me encanta el trabajo en equipo, y en constante desarrollo, personal y profesional. <br> </p>
+                    <p>Actualmente estoy en una busqueda activa de trabajo.<br><strong>Mi disponibilidad horaria es Full Time</strong> </p>
                 </div>                
                 <div class="col-lg-4 align-self-center">        
-                    <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" style="font-family: 'Space Grotesk', sans-serif;font-style: oblique;">
+                    <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" style="font-family: 'Space Grotesk', sans-serif;font-style: italic;font-weight: 700;">
                           CURRICULUM VITAE DETALLADO
                     </button>
                         <div class="offcanvas offcanvas-end"  tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                             <div class="offcanvas-header">
                               <h5 class="offcanvas-title text-lowercase" id="offcanvasExampleLabel">curriculum vitae</h5>
-                              <button type="button" class="btn-close btn-sm text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> 
+                              <button type="button" class="btn btn-sm text-reset" data-bs-dismiss="offcanvas" aria-label="Close" style="color: black;">x</button> 
                             </div>
 
                             <div class="offcanvas-body">
@@ -83,7 +82,7 @@
                                 <div class="row align-items-start">
                              
                                     
-                                        <button class="btn " type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample1" >
+                                        <button class="btn btn-outline" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample1" aria-expanded="false" aria-controls="collapseWidthExample1" >
                                         
                                          <h3>EXPERIENCIA</h3>
                                         </button>
@@ -292,11 +291,11 @@
     </section>
     <section class="text-center content-section" id="proyectos" >
         <div class="container">
-            <div class="row ">                     
-                <div class="col-lg-12 mx-auto">
+            <div class="row justify-content-center">                     
+                <div class="col-lg-4">
                    <h2>Proyectos</h2>
                    <p>Aquí te dejo los repositorios de mis proyectos para que puedas verlos.</p>
-                    <a href="https://github.com/joaquinaccorsi" target="_blank"><button class="btn btn-outline-warning " type="button"><i class="fa-brands fa-github-square"></i></button></a>
+                    <h6><a href="https://github.com/joaquinaccorsi" target="_blank"><i class="fab fa-github-square "></i></a><br>GITHUB</h6>
                 </div>
             </div>    
            
@@ -306,15 +305,15 @@
         <div class="container">
             <div class="row justify-content-around">
     
-                <div class="col-lg-4 mx-auto align-self-start">
-                 <h2>Contáctame</h2>
-                 <p>¡Sentite libre de dejarme tu critica para seguir aprendiendo!</p>
+                <div class="col-lg-6">
+                 <h2>Contáctame</h2> <br>
+                 <p>¡Sentite libre de dejarme <br> tu critica para seguir aprendiendo!</p>
                 </div>
-                <div class="col-lg-8 mx-auto align-self-end">
+                <div class="col-lg-6 ">
                     <div class="link contacto"> 
-                         <i class="fas fa-mobile-alt fa-lg"><p>+543516973481</p></i><br>  
-                         <a href="https://www.linkedin.com/in/joaquinaccorsi/" target="_blank"><button class="btn btn-outline-warning"><i class="fa-brands fa-linkedin"></i></button></a><br>
-                         <a href="mailto:joaquinaccorsi@gmail.com" target="_blank"><button  class="btn btn-outline-warning"type="button"><i class="fa-solid fa-envelope"></i></button></a>
+                         <h4><i class="fas fa-mobile-alt fa-lg">+543516973481</i></h4> <br>  
+                         <h4><a href="https://www.linkedin.com/in/joaquinaccorsi/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>LinkedIn<h4>
+                         <h4><a href="mailto:joaquinaccorsi@gmail.com" target="_blank"><i class="fas fa-solid fa-envelope"></i></a>Mail</h4>
                     </div>     
                 </div>
             </div>
@@ -335,6 +334,7 @@
                 <div class="col-4 align-self-end ">
                     Diseño Artistico Web by:
                     <h6>Valentina Sedran</h6>
+                    <i class="fas fa-solid fa-envelope">valentinasedrandg@gmail.com</i>
                 </div>               
             </div>
         </div>

@@ -6,17 +6,17 @@
 
 
 
-.navbar {  width: 100%;height: 70px;background-color: #FFC107; 
+.navbar {  width: 100%;height: 50px;background-color: #FFC107; 
 text-align: start;font-family:'Space Grotesk', sans-serif;font-style: normal;}
-.masthead {background-color: #FFC107;}
-.masthead p {background-color: black; color: white; border-radius: 20px;}
+.masthead  {background-image: url(IMG/randal.svg);}
+.mymodal {color: white;}
 .offcanvas {background-color: #FFC107;}
 .offcanvas .offcanvas-header {font-family: 'Space Grotesk', sans-serif; background-color:black; height: 90px;}
 .offcanvas .offcanvas-header h5 {color:#FFC107;}
-.offcanvas .offcanvas-header button {background-color: #FFC107;}
+.offcanvas .offcanvas-header button {background-color: #FFC107;border-radius: 0px; color: black;}
 .offcanvas .offcanvas-body {font-family: 'Space Grotesk', sans-serif; background-color: #FFC107; }
-.offcanvas .offcanvas-body button {background-color: black; height: 30px;}
-.offcanvas .offcanvas-body button h3 {color: white; font-family:'Space Grotesk', sans-serif; font-size: small; }
+.offcanvas .offcanvas-body button { background-color: #FFC107; height: 35px; border-color: black; border-width: 3px;}
+.offcanvas .offcanvas-body button h3 {color: black; font-family:'Space Grotesk', sans-serif; font-size: small; margin-top: 1pt; }
 .card-body {background-color: black;width: 300px;font-family: 'Space   Grotesk', sans-serif;}
 .card-body ul li {background-color:black; color: white;}
 .card-body ul li h5 {font-size: smaller; color: white;}
@@ -26,4 +26,12 @@ h1 {font-family: 'Space Grotesk', sans-serif;}
 h2 {font-family: 'Space Grotesk', sans-serif; color:#FFC107; font-style: bold;}
 h5 {font-family: 'Space Grotesk', sans-serif; font-style: italic; color: black;}
 p {font-family: 'Space Grotesk', sans-serif;}
+h4 {text-align: start;font-family: 'Space Grotesk', sans-serif;}
+h6 .fa-github-square {font-size: 150px; text-align: center!important;}
+h4 .fa-linkedin{font-size: 30px;}
+h4 .fa-envelope {font-size: 30px;}
+i {color: #FFC107;}
+
 footer {background-color:#FFC107; color: black; font-family:'Space Grotesk', sans-serif;}
+footer h6 {font-style: italic; margin-bottom: 8px;}
+footer i {color: black;}
