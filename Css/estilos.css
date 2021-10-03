@@ -26,12 +26,15 @@ h1 {font-family: 'Space Grotesk', sans-serif;}
 h2 {font-family: 'Space Grotesk', sans-serif; color:#FFC107; font-style: bold;}
 h5 {font-family: 'Space Grotesk', sans-serif; font-style: italic; color: black;}
 p {font-family: 'Space Grotesk', sans-serif;}
-h4 {text-align: start;font-family: 'Space Grotesk', sans-serif;}
+.contacto {line-height: 0;}
+h4 {text-align: start;font-family: 'Space Grotesk', sans-serif; line-height: 13px;}
+h4 .fa-mobile { line-height: 0; font-size: 30px; margin-top: 30px;}
 h6 .fa-github-square {font-size: 150px; text-align: center!important;}
-h4 .fa-linkedin{font-size: 30px;}
-h4 .fa-envelope {font-size: 30px;}
+h4 .fa-linkedin{ font-size: 30px;line-height: 0; margin-top: 1px;}
+h4 .fa-envelope {font-size: 30px;line-height: 0;}
 i {color: #FFC107;}
-
+.title {line-height: 1px; text-align: start;}
+.title h2 {margin-top: 10px;}
 footer {background-color:#FFC107; color: black; font-family:'Space Grotesk', sans-serif;}
 footer h6 {font-style: italic; margin-bottom: 8px;}
 footer i {color: black;}
