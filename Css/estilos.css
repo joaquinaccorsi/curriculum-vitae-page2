@@ -3,16 +3,14 @@
 
 .html { font-family: 'Space Grotesk', sans-serif;}
 
-
-
-
+nav .navbar .navbar-light .fixed-top #mainNav{background-color: #FFC107;} 
 .navbar { text-align: start;font-family:'Space Grotesk', sans-serif;font-style: normal;padding-bottom: 10px;}
 
 .masthead  {background-image: url(IMG/MASTHEAD\ BACKGROUND.svg);}
-div.modal-body {padding-bottom: 100px;}
-.modal-body img {height: 350px; width: 300px; padding-bottom: 20px;padding-top: 0px;}
+div.-body {padding-bottom: 100px;}
+.-body img {height: 350px; width: 300px; padding-bottom: 20px;padding-top: 0px;}
 .intro-body {padding-top: 70px;padding-bottom: 70px;}
-div.mymodal {color: white; height: 400px;padding-bottom: 100px;}
+div.my {color: white; height: 400px;padding-bottom: 100px;}
 .offcanvas {background-color: #FFC107;}
 .offcanvas .offcanvas-header {font-family: 'Space Grotesk', sans-serif; background-color:black; height: 90px;}
 .offcanvas .offcanvas-header h5 {color:#FFC107;}
