@@ -6,9 +6,9 @@
 nav .navbar .navbar-light .fixed-top #mainNav{background-color: #FFC107;} 
 .navbar { text-align: start;font-family:'Space Grotesk', sans-serif;font-style: normal;padding-bottom: 10px;}
 
-.masthead  {background-image: url(IMG/MASTHEAD\ BACKGROUND.svg);}
-div.-body {padding-bottom: 100px;}
-.-body img {height: 350px; width: 300px; padding-bottom: 20px;padding-top: 0px;}
+.masthead  {background-image: url(IMG/MASTHEAD\ BACKGROUND.svg);padding-bottom: 1px; padding-top: 100px;padding-left: 23px ;}
+div.body {padding-bottom: 100px;}
+.body img {height: 350px; width: 300px; padding-bottom: 20px;padding-top: 0px;}
 .intro-body {padding-top: 70px;padding-bottom: 70px;}
 div.my {color: white; height: 400px;padding-bottom: 100px;}
 .offcanvas {background-color: #FFC107;}
