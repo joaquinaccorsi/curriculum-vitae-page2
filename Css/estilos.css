@@ -1,12 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Space Grotesk', sans-serif;
+
+}
 
 
 .html { font-family: 'Space Grotesk', sans-serif;}
 
-nav.navbar#mainNav {background-color: #FFC107;padding-bottom: 0px;padding-top: 0px;margin: 20px;display: flex; flex-wrap: wrap;padding: 10px; height: 60px;min-width: 250px;} 
+nav.navbar#mainNav {background-color: #FFC107;padding-bottom: 0px;padding-top: 0px;margin: 10px;display: flex; flex-wrap: wrap;padding: 10px; height: 60px;min-width: 250px;font-family:'Space Grotesk', sans-serif;}
+nav.navbar#mainNav a {color: black;} 
 .navbar { text-align: start;font-family:'Space Grotesk', sans-serif;font-style: normal;color: black;}
-
-.masthead  {background-image: url(IMG/MASTHEAD\ BACKGROUND.svg);padding-bottom: 0px;margin: 20px;display: flex; flex-wrap: wrap;padding: 10px;min-width: 250px;}
+header div nav label i {color: black;}
+header {height: 100px;padding-top:70px; padding-bottom: 0px;margin: 20px; display: flex; flex-wrap: wrap;padding: 10px;min-width: 250px;}
+.masthead  {background-image: url(IMG/MASTHEAD\ BACKGROUND.svg);padding-bottom: 0px;margin: 10px;display: flex; flex-wrap: wrap;padding: 10px;min-width:250px}
 .masthead div.mymodal {height: 220px;width: 180px;}
 .masthead div.modal-body img {height: 120px;width: 120px;}
 div.body {padding-bottom: 0px;margin: 20px;display: flex; flex-wrap: wrap;padding: 25px;min-width: 250px;}
@@ -25,9 +32,9 @@ div#CV h3 {color: black;font-family:'Space Grotesk', sans-serif; font-size: smal
 .card-body ul li h5 {font-size: smaller; color: white;}
 
 
-.content-section#conoceme {padding-top: 70px; padding-bottom: 0px;margin: 20px; display: flex; flex-wrap: wrap;padding: 10px;min-width: 250px;}
-.content-section#proyectos {padding-top: 70px; padding-bottom: 0px;margin: 20px;display: flex; flex-wrap: wrap;padding: 10px;min-width: 250px;}
-.content-section#contactame {padding-top: 70px; padding-bottom: 0px;margin: 20px;display: flex; flex-wrap: wrap;padding: 10px;min-width: 250px;}
+.content-section#conoceme {padding-top: 70px; padding-bottom: 0px;margin: 10px; display: flex; flex-wrap: wrap;padding: 10px;min-width: 250px;}
+.content-section#proyectos {padding-top: 70px; padding-bottom: 0px;margin: 10px;display: flex; flex-wrap: wrap;padding: 10px;min-width: 250px;}
+.content-section#contactame {padding-top: 70px; padding-bottom: 0px;margin: 10px;display: flex; flex-wrap: wrap;padding: 10px;min-width: 250px;}
 h1 {font-family: 'Space Grotesk', sans-serif;}
 h2 {font-family: 'Space Grotesk', sans-serif; color:#FFC107; font-style: bold;}
 h5 {font-family: 'Space Grotesk', sans-serif; font-style: italic; color: black;}
@@ -41,6 +48,6 @@ h4 .fa-envelope {font-size: 30px;line-height: 0;font-weight: 400;}
 i {color: #FFC107;}
 .title {line-height: 1px; text-align: end;}
 .title h2 {margin-top: 10px;}
-.content-section#pie {background-color:#FFC107; color: black; font-family:'Space Grotesk', sans-serif;margin: 20px;display: flex; flex-wrap: wrap;padding: 10px;padding-bottom: 0px;min-width: 250px;}
+.content-section#pie {background-color:#FFC107; color: black; font-family:'Space Grotesk', sans-serif;margin: 10px;display: flex; flex-wrap: wrap;padding: 10px;padding-bottom: 0px;min-width: 250px;}
 footer h6 {font-style: italic; margin-bottom: 8px;padding-bottom: 0px;}
 footer i {color: black;}

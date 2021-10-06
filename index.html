@@ -24,17 +24,19 @@
     </head>
 
     <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
-        <div class="container-fluid">
-            <nav class="navbar navbar-light fixed-top" id="mainNav">
-                <ul class="navbar justify-content-start" >
-                 <li class="nav-item nav-link text-lowercase conoceme"><a href="#conoceme" style="color: black;" >#conoceme</a></li>
-                 <li class="nav-item nav-link text-lowercase proyectos"><a href="#proyectos" style="color: black;" >#proyectos</a></li>
-                 <li class="nav-item nav-link text-lowercase contactame"><a href="#contactame" style="color: black;">#contáctame</a></li> 
-                </ul>       
-            </nav>
-        </div>
-        <header class="masthead">
-            <div class="intro-body">
+        <header>
+            <input class="checkbox" id="check"></input>
+            <label for="check" class="mostrar-menu"><i class="fas fa-bars"></i></label>
+            <div class="container-fluid">
+                <nav class="navbar navbar-light fixed-top text-lowercase" id="mainNav">
+                    
+                    <a href="#conoceme">#conoceme</a>
+                    <a href="#proyectos">#proyectos</a>
+                    <a href="#contactame">#contáctame</a>                
+                    <label for="check" class="esconder-menu"><i class="far fa-minus-square"></i></label>      
+                </nav>
+            </div>
+            <div class="masthead">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-lg-12">
