@@ -14,10 +14,13 @@ div.my {color: white; height: 400px;padding-bottom: 100px;}
 .offcanvas {background-color: #FFC107;}
 .offcanvas .offcanvas-header {font-family: 'Space Grotesk', sans-serif; background-color:black; height: 90px;}
 .offcanvas .offcanvas-header h5 {color:#FFC107;}
-.offcanvas .offcanvas-header button {background-color: #FFC107;border-radius: 0px; color: black;}
+.offcanvas .offcanvas-header button {background-color: #FFC107;border-radius: 0px; }
+.offcanvas-header p {background-color: black;}
 .offcanvas .offcanvas-body {font-family: 'Space Grotesk', sans-serif; background-color: #FFC107; }
 .offcanvas .offcanvas-body button { background-color: #FFC107; height: 35px; border-color: black; border-width: 3px;}
 .offcanvas .offcanvas-body button h3 {color: black; font-family:'Space Grotesk', sans-serif; font-size: small; margin-top: 1pt; }
+.offcanvas .offcanvas-body p {color: black;text-align: center;}
+.offcanvas .offcanvas-body embed {color: black;}
 .card-body {background-color: black;width: 300px;font-family: 'Space   Grotesk', sans-serif;}
 .card-body ul li {background-color:black; color: white;}
 .card-body ul li h5 {font-size: smaller; color: white;}
