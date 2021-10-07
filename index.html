@@ -25,21 +25,23 @@
 
     <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
         <header>
-            <input class="checkbox" id="check"></input>
-            <label for="check" class="mostrar-menu"><i class="far fa-minus-square"></i></label>
-            <div class="container-fluid">
-                <nav class="navbar navbar-light fixed-top text-lowercase" id="mainNav">
-                    
-                    <a href="#conoceme">#conoceme</a>
-                    <a href="#proyectos">#proyectos</a>
-                    <a href="#contactame">#contáctame</a>                
-                    <label for="check" class="esconder-menu"><i class="fas fa-bars"></i></label>      
-                </nav>
-            </div>
+                       
+            <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav">
+                <div class="container"><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler " type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto text-lowercase">
+                            <li class="nav-item"><a class="nav-link" href="#conoceme">conoceme</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#proyectos">proyectos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contactame">contactame</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
             <div class="masthead">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-sm-12">
                             <div class="mymodal" tabindex="-1" aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content" style="border-radius: 0px;">
@@ -62,12 +64,12 @@
         <section class="content-section" id="conoceme">
             <div class="container-fluid">
                 <div class="row justify-content-around">
-                    <div class="col-lg-4 align-self-center">
+                    <div class="col-sm-6 col-md-4 align-self-center">
                      <h2>Conoceme</h2>
                      <p>Soy Joaquín! Tengo 25 años y <strong> hace dos años que estoy incursionando en el mundo IT.</strong> <br>Vivo en Córdoba Capital, Argentina. <br>  <br> Me considero una persona <strong>resolutiva, proactiva, autonoma,</strong>  aunque me encanta el trabajo en equipo, y en constante desarrollo, personal y profesional. <br> </p>
                      <p>Actualmente estoy en una busqueda activa de trabajo.<br><strong>Mi disponibilidad horaria es Full Time</strong> </p>
                     </div>                
-                    <div class="col-lg-4 align-self-center">        
+                    <div class="col-sm-6 col-md-4 align-self-center">        
                         <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" style="font-family: 'Space Grotesk', sans-serif;font-style: italic;font-weight: 700;">
                           CURRICULUM VITAE DETALLADO
                         </button>
@@ -273,7 +275,7 @@
                                             </div>
                                         </div>
                                     
-                                    <div class="col-lg-12" id="CV" >
+                                    <div class="col-sm-12" id="CV" >
                                         <h3>C.V descargable pdf</h3>
                                         <embed src="cv/JoaquinAccorsi CV.pdf" type="application/pdf" width="100%" height="600px">
                                     </div>
@@ -291,7 +293,7 @@
         <section class="text-center content-section" id="proyectos" >
             <div class="container-fluid">
                 <div class="row justify-content-center">                     
-                    <div class="col-lg-12">
+                    <div class="col-sm-12">
                       <h2>Proyectos</h2>
                      <p>Aquí te dejo los repositorios de <br> mis proyectos para que puedas verlos.</p>
                      <h6><a href="https://github.com/joaquinaccorsi" target="_blank"><i class="fab fa-github-square "></i></a><br>GITHUB</h6>
@@ -303,17 +305,17 @@
             <div class="container-fluid">
                 <div class="row justify-content-around">
                    
-                    <div class="col-4 align-self-end">
+                    <div class="col-sm-4 col-md-6 align-self-end">
                         <div class="title">
                          <h2>Contáctame</h2>
                          <p>¡Sentite libre de dejarme <br> tu critica para seguir aprendiendo!</p>
                         </div>
                     </div>
-                    <div class="col-4 align-self-start">
+                    <div class="col-sm-4 col-md-6">
                         <div class="contacto"> 
-                           <h4><i class="fas fa-mobile"></i>+543516973481</h4> 
-                           <h4><a href="https://www.linkedin.com/in/joaquinaccorsi/" target="_blank"><i class="fab fa-linkedin"></i></a>LinkedIn<h4>
-                           <h4><a href="mailto:joaquinaccorsi@gmail.com" target="_blank"><i class="fas fa-solid fa-envelope"></i></a>Mail</h4>
+                            <h4><i class="fas fa-mobile"></i>  +543516973481</h4> 
+                           <h4><a href="https://www.linkedin.com/in/joaquinaccorsi/" target="_blank"><i class="fab fa-linkedin"></i></a>  LinkedIn</h4>
+                           <h4><a href="mailto:joaquinaccorsi@gmail.com" target="_blank"><i class="fas fa-solid fa-envelope"></i></a>  Mail</h4>
                         </div>
                     </div>                     
                 </div>
@@ -322,11 +324,11 @@
         <footer>
             <div class="container-fluid content-section" id="pie">
                 <div class="row justify-content-between">
-                    <div class="col-4 align-self-start">
+                    <div class="col-sm-6 col-md-4 align-self-start">
                      <p>Córdoba Capital, Argentina.</p><br>
                      <p>2021</p>
                     </div>
-                    <div class="col-4 align-self-end">
+                    <div class="col-sm-6 col-md-4 align-self-end">
                      Diseño Artistico Web by:
                      <h6>Valentina Sedran</h6>
                      <i class="fas fa-solid fa-envelope">valentinasedrandg@gmail.com</i>
