@@ -6,7 +6,7 @@
 }
 
 
-.html { font-family: 'Space Grotesk', sans-serif;}
+.html { font-family: 'Space Grotesk', sans-serif;box-sizing: border-box;}
 
 nav.navbar#mainNav {background-color: #FFC107;display: flex; flex-wrap: wrap;padding: 0px 80px;height: 80px;font-family:'Space Grotesk', sans-serif;font-weight: 500;transition: 0,4s;}
 #Nav-link {color: white; text-decoration: none;cursor: pointer;}
@@ -17,7 +17,7 @@ nav.navbar#mainNav {background-color: #FFC107;display: flex; flex-wrap: wrap;pad
     font-size: 30px;
     padding: 10px;
     color: black;
-    border: 3px solid black;
+    
 }
 
 #mainNav .navbar-nav .nav-item:hover,
@@ -29,23 +29,26 @@ nav.navbar#mainNav {background-color: #FFC107;display: flex; flex-wrap: wrap;pad
 
 
 @media(max-width: 768px){
-    nav.navbar#mainNav {height: auto;}
+    .navbar>.container {justify-content: center;}
+  
     .navbar-collapse {flex-basis: initial; flex-grow: inherit;}
-    #mainNav .navbar-toggler {display: block;}
-    #NavbarResponsive {position: fixed;
+    #mainNav .navbar-toggler {display: flex;}
+    .navbar-toggler {background-color: white; border-radius: 100%; display: flex;}
+    #NavbarResponsive {position: static;
     width: 100%; height: 100vh;background: #FFC107; left: 0;right: -100%;top: 0; text-align: center;padding: 0px 100px; z-index: 100; transition: 0,8s;}
     #NavbarResponsive li a {display: none;padding: 20px;}
     header {flex-direction: column;}
-   
-    .content-section#conoceme,
-    .content-section#contactame,
-    .content-section#proyectos,
-    .content-section#pie {padding-bottom: 0px;flex-direction: column;padding: 15px 50px; text-align: center;}
-    .title {text-align: center;}
+    .content-section#conoceme {padding-bottom: 0px;flex-direction: column;padding: 20px 0px; text-align: center;}
+    .content-section#contactame {padding-bottom: 0px;flex-direction: column;padding: 20px 0px; text-align: center;}
+    .content-section#proyectos{padding-bottom: 0px;flex-direction: column;padding: 20px 0px; text-align: center;}
+    .content-section#pie {padding-bottom: 0px;flex-direction: column;padding: 0px 0px; text-align: center;}
+    .title {text-align: center!important;}
+    .contacto {text-align: center!important;}
     .fa-envelope,
     .fa-linkedin,
     .fa-mobile {flex-direction: column; text-decoration: none;}
     h4 {flex-direction: column;margin: 0px 20px;padding: 0px 50px;}
+    footer {text-align: center;}
 
 
 }
@@ -53,9 +56,9 @@ nav.navbar#mainNav {background-color: #FFC107;display: flex; flex-wrap: wrap;pad
 
 
 header {display: flex; flex-wrap: wrap;padding: 0 50px; justify-content: space-between;align-self: start;}
-.masthead  {background-image: url(IMG/MASTHEAD\ BACKGROUND.svg);padding:0 50px;height: 75vh;background-size: cover;background-position: center;}
-.masthead div.mymodal {height: 220px;width: 180px;align-self: baseline;}
-.masthead div.modal-body img {height: 120px;width: 120px;align-self: baseline;}
+.masthead  {background-image: url(IMG/MASTHEAD\ BACKGROUND.svg);padding:10px 0px 10px 0px;height: 75vh;background-size: cover;background-position: center;}
+.masthead div.mymodal {height: 220px;width: 180px;}
+.masthead div.modal-body img {height: 120px;width: 120px;}
 #conoceme button {transition: all 0,4s;}
 #conoceme button:hover {background: white;color: #FFC107;}
 .offcanvas {background-color: #FFC107;}
@@ -72,7 +75,10 @@ div#CV h3 {color: black;font-family:'Space Grotesk', sans-serif; font-size: smal
 .card-body ul li {background-color:black; color: white;}
 .card-body ul li h5 {font-size: smaller; color: white;}
 
-
+.content-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .content-section#conoceme {padding-bottom: 0px; display: flex;}
 .content-section#proyectos {padding-bottom: 0px;display: flex;}
 .content-section#contactame {padding-bottom: 0px;display: flex;}
@@ -92,7 +98,8 @@ h6 .fa-github-square {font-size: 150px; text-align: center!important;}
 .fa-envelope:hover {color: white;transition: 0,4s;}
 i {color: #FFC107;}
 .title {line-height: 1px; text-align: end;}
-.title h2 {margin-top: 10px;}
-.content-section#pie {background-color:#FFC107; color: black; font-family:'Space Grotesk', sans-serif;display: flex;;justify-content: space-between;}
+.title h2 {margin-top: 34px;}
+footer {padding: 0;}
+.content-section#pie {background-color:#FFC107; color: black; font-family:'Space Grotesk', sans-serif;display: flex;justify-content: space-between;}
 footer h6 {font-style: italic; margin-bottom: 8px;padding-bottom: 0px;}
 footer i {color: black;}
