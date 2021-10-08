@@ -57,8 +57,11 @@ nav.navbar#mainNav {background-color: #FFC107;display: flex; flex-wrap: wrap;pad
 
 header {display: flex; flex-wrap: wrap;padding: 0 50px; justify-content: space-between;align-self: start;}
 .masthead  {background-image: url(IMG/MASTHEAD\ BACKGROUND.svg);padding:10px 0px 10px 0px;height: 75vh;background-size: cover;background-position: center;}
-.masthead div.mymodal {height: 220px;width: 180px;}
-.masthead div.modal-body img {height: 120px;width: 120px;}
+.masthead img {height: 320px; width: 280px;    padding: 0px 0px 0px 5px;
+    position: absolute;
+}
+.btn#offcanvasperfil {padding-top: 100px;}
+.row#offcanvasbutton {height: 480px;box-sizing: content-box;}
 #conoceme button {transition: all 0,4s;}
 #conoceme button:hover {background: white;color: #FFC107;}
 .offcanvas {background-color: #FFC107;}
