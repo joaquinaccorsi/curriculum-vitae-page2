@@ -25,7 +25,10 @@ nav.navbar#mainNav {background-color: #FFC107;display: flex; flex-wrap: wrap;pad
     background-color: black;
 }
 .navbar-toggler {display: none;}
- 
+
+.modal {display: flex ; flex-direction: column; align-content: center; flex-wrap: wrap; position: relative;}
+.modal-body {height: 350px;width: 350px;}
+.masthead img#perfil {position: unset;}
 
 /* RESPONSIVE */
 @media(max-width: 768px){
@@ -46,7 +49,7 @@ nav.navbar#mainNav {background-color: #FFC107;display: flex; flex-wrap: wrap;pad
     .content-section#conoceme {padding-bottom: 0px;flex-direction: column;padding: 20px 0px; text-align: center;}
     .content-section#contactame {padding-bottom: 0px;flex-direction: column;padding: 20px 0px; text-align: center;}
     .content-section#proyectos{padding-bottom: 0px;flex-direction: column;padding: 20px 0px; text-align: center;}
-    .content-section#pie {padding-bottom: 0px;flex-direction: column;padding: 0px 0px; text-align: center;}
+    .content-section#pie {padding-bottom: 0px;flex-direction: column;padding: 0px 0px; text-align: center; }
     .title {text-align: center!important;}
     .contacto {text-align: center!important;}
     .fa-envelope,
@@ -108,6 +111,6 @@ i {color: #FFC107;}
 .title {line-height: 1px; text-align: end;}
 .title h2 {margin-top: 34px;}
 footer {padding: 0;}
-.content-section#pie {background-color:#FFC107; color: black; font-family:'Space Grotesk', sans-serif;display: flex;justify-content: space-between;}
+.content-section#pie {background-color:#FFC107; color: black; font-family:'Space Grotesk', sans-serif;}
 footer h6 {font-style: italic; margin-bottom: 8px;padding-bottom: 0px;}
 footer i {color: black;}
