@@ -3,10 +3,12 @@
     padding: 0px ;
     font-family:'Space Grotesk', sans-serif;
 
+
 }
 
 
-.html { font-family: 'Space Grotesk', sans-serif;box-sizing: border-box;}
+.html { font-family: 'Space Grotesk', sans-serif;box-sizing: border-box;    min-width: 320px;
+    max-width: 1024px;}
 
 nav.navbar#mainNav {background-color: #FFC107;display: flex; flex-wrap: wrap;padding: 0px 80px;height: 80px;font-family:'Space Grotesk', sans-serif;font-weight: 500;transition: 0,4s;}
 #Nav-link {color: white; text-decoration: none;cursor: pointer;}
@@ -26,8 +28,7 @@ nav.navbar#mainNav {background-color: #FFC107;display: flex; flex-wrap: wrap;pad
 }
 .navbar-toggler {display: none;}
 
-.modal {display: flex ; flex-direction: column; align-content: center; flex-wrap: wrap; position: relative;}
-.modal-body {height: 350px;width: 350px;}
+.modal {display: flex ; flex-direction: column; align-content: center; flex-wrap: wrap;position:absolute; left: 260px;}
 .masthead img#perfil {position: unset;}
 
 /* RESPONSIVE */
@@ -64,10 +65,23 @@ nav.navbar#mainNav {background-color: #FFC107;display: flex; flex-wrap: wrap;pad
 
 
 header {display: flex; flex-wrap: wrap;padding: 0 50px; justify-content: space-between;align-self: start;}
-.masthead  {background-image: url(IMG/MASTHEAD\ BACKGROUND.svg);padding:10px 0px 10px 0px;height: 75vh;background-size: cover;background-position: center;}
-.masthead img {height: 320px; width: 280px;    padding: 0px 0px 0px 5px;
-    position: absolute;
+.masthead  {background-color: #FFC107;padding:10px 0px 10px 0px;height: 75vh;}
+.masthead img#perfil {height: 320px; width: 280px;    padding: 0px 0px 0px 5px;
+    
 }
+.masthead img#portada1,
+.masthead img#portada2{ float: left;
+
+}
+.masthead img#portada3,
+.masthead img#portada4{
+    float: right;
+}
+.masthead img#portada2 {margin: 110px 0px 0px 70px; width: 800px;}
+.masthead img#portada1 {width: 100px; margin: 15px 0px 0px 300px;}
+.masthead h2 {color: black;margin: 30px 0px 0px 70px;}
+.masthead img#portada3 {margin: 0 0 0 250px ;width: auto;}
+.masthead img#portada4 {width: auto;}
 .btn#offcanvasperfil {padding-top: 100px;}
 .row#offcanvasbutton {height: 480px;box-sizing: content-box;}
 #conoceme button {transition: all 0,4s;}
